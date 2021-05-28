@@ -1,0 +1,11 @@
+{
+  "name": "use-style-link",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Zheeeng <hi@zheeeng.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.8.6",
+    "react": "^16.8.6"
+  }
+}
