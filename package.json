@@ -1,11 +1,14 @@
 {
   "name": "use-style-link",
   "version": "1.0.1",
-  "main": "index.js",
+  "main": "useStyleLink.js",
   "author": "Zheeeng <hi@zheeeng.me>",
   "license": "MIT",
   "devDependencies": {
     "@types/react": "^16.8.6",
     "react": "^16.8.6"
+  },
+  "scripts": {
+    "build": "tsc"
   }
 }
