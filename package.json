@@ -1,12 +1,13 @@
 {
   "name": "use-style-link",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "useStyleLink.js",
   "author": "Zheeeng <hi@zheeeng.me>",
+  "repository": "https://github.com/zheeeng/use-style-link.git",
   "license": "MIT",
-  "devDependencies": {
-    "@types/react": "^16.8.6",
-    "react": "^16.8.6"
+  "peerDependencies": {
+    "react": "^16.8.0  || ^17.0.0",
+    "react-dom": "^16.8.0  || ^17.0.0"
   },
   "scripts": {
     "build": "tsc"
