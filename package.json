@@ -1,15 +1,28 @@
 {
   "name": "use-style-link",
-  "version": "1.0.3",
-  "main": "useStyleLink.js",
   "author": "Zheeeng <hi@zheeeng.me>",
-  "repository": "https://github.com/zheeeng/use-style-link.git",
+  "description": "A React hook for inserting the identical style link.",
+  "keywords": [
+    "react hooks",
+    "hooks",
+    "style",
+    "style-sheet",
+    "style-link",
+    "use-style-link"
+  ],
+  "repository": "https://github.com/zheeeng/use-style-link",
+  "version": "1.0.5",
   "license": "MIT",
-  "peerDependencies": {
-    "react": "^16.8.0  || ^17.0.0",
-    "react-dom": "^16.8.0  || ^17.0.0"
-  },
+  "main": "index.js",
   "scripts": {
-    "build": "tsc"
+    "prepublishOnly": "npm run build",
+    "build": "tsc -p tsconfig.json"
+  },
+  "files": [
+    "*.js",
+    "*.d.ts"
+  ],
+  "peerDependencies": {
+    "react": "^16.8.0  || ^17.0.0"
   }
 }

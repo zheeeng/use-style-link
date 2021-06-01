@@ -1,5 +1,10 @@
 # useStyleLink
 
+[![NPM](https://nodei.co/npm/use-style-link.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/use-style-link/)
+
+![publish workflow](https://github.com/zheeeng/use-style-link/actions/workflows/publish.yml/badge.svg)
+[![npm version](https://img.shields.io/npm/v/use-style-link.svg)](https://www.npmjs.com/package/use-style-link)
+
 A React hook for inserting the identical style link.
 
 Support SSR scene.
