@@ -11,7 +11,7 @@
     "use-style-link"
   ],
   "repository": "https://github.com/zheeeng/use-style-link",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "license": "MIT",
   "main": "index.js",
   "scripts": {
@@ -24,5 +24,8 @@
   ],
   "peerDependencies": {
     "react": "^16.8.0  || ^17.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.8"
   }
 }
